@@ -8,7 +8,7 @@ class ChattyStudent < Student # inherits from Student class
   end
   
   def raise_hand
-    10.times do # calls method of the same name and uses implementation 
+    10.times do # calls the super classes implementation of the method of the same name
       super
     end
   end
