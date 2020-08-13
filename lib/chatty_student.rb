@@ -9,9 +9,7 @@ class ChattyStudent < Student # inherits from Student class
   
   def raise_hand
     super
-    10.times do
-    "Pick me!"
-  end
+    10.times
   end
   
 end
